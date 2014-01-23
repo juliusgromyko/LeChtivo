@@ -1,0 +1,75 @@
+<% Base_URL="http://lechtivo.com/" %>
+
+<% Menu_Items = Array.new %>
+<% Menu_Items.push Hash[:name => "Чтиво", :url => "/tag/readings"] %>
+<% Menu_Items.push Hash[:name => "Места", :url => "/tag/places"] %>
+<% Menu_Items.push Hash[:name => "Еда", :url => "/tag/food"] %>
+<% Menu_Items.push Hash[:name => "Дизайн", :url => "/tag/design"] %>
+<% Menu_Items.push Hash[:name => "Свое дело", :url => "/tag/entrepreneurship"] %>
+<% Menu_Items.push Hash[:name => "Вне рубрики", :url => "/tag/other"] %>
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le Чтиво | Книги, Места, Еда, Дизайн, Свое Дело, Интересности</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+    
+   <!-- Header and Nav -->
+ 
+  <div class="row">
+    <div class="large-12 large-centered columns text-center">
+      <h1><a href="<%= Base_URL %>"><img src="http://placehold.it/400x100&text=Le Chtivo"></a></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 large-centered">
+      <ul class="button-group even-<%= Menu_Items.length %>">
+        <% Menu_Items.each do |Menu_Item| %>
+          <li><a href="<%= Menu_Item[:url] %>" class="button"><%= Menu_Item[:name] %></a></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+ 
+  <!-- End Header and Nav -->
+ 
+
+  <!-- Content -->
+  <%= yield %>
+
+ 
+  <!-- Footer -->
+ 
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>2014 © Copyright <a href="<%= Base_URL %>">Le Chtivo</a></p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <% Menu_Items.each do |Menu_Item| %>
+              <li><a href="<%= Menu_Item[:url] %>"><%= Menu_Item[:name] %></a></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+    
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
