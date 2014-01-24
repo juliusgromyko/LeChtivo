@@ -4334,12 +4334,12 @@ label.error {
 /* line 275, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.hover > a {
   background: #f7f7f7;
-  color: #ff7200;
+  color: #ff8e33;
 }
 /* line 281, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
   background: white;
-  color: #ff7200;
+  color: white;
 }
 /* line 288, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
@@ -4595,12 +4595,12 @@ label.error {
   /* line 510, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
     background: #f7f7f7;
-    color: #ff7200;
+    color: #ff8e33;
   }
   /* line 516, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
     background: white;
-    color: #ff7200;
+    color: white;
   }
   /* line 524, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -6804,24 +6804,189 @@ a.th {
   max-width: 800px;
 }
 
-/* line 5, ../scss/app.scss */
+/* line 6, ../scss/app.scss */
+a.article-title {
+  color: #666;
+}
+
+/* line 10, ../scss/app.scss */
+a.article-title:hover {
+  color: #222;
+  border-bottom: dotted .1em black;
+}
+
+/* line 16, ../scss/app.scss */
+.article-info-line {
+  display: block;
+  margin-top: -2em;
+  padding: .5em;
+}
+
+/* line 22, ../scss/app.scss */
+.article-info-line a {
+  color: #666;
+  text-decoration: underline;
+}
+
+/* line 27, ../scss/app.scss */
+.article-info-line a:hover {
+  color: #ff7200;
+}
+
+/* line 31, ../scss/app.scss */
+.article-info-line a.views::before {
+  font-family: "fontello";
+  content: "\e806\20";
+}
+
+/* line 36, ../scss/app.scss */
+.article-info-line a.author::before {
+  font-family: "fontello";
+  content: "\e808\20";
+}
+
+/* line 41, ../scss/app.scss */
+.article-info-line a.calendar::before {
+  font-family: "fontello";
+  content: "\e809\20";
+}
+
+/* line 46, ../scss/app.scss */
+.article-info-line a.comments::before {
+  font-family: "fontello";
+  content: "\e807\20";
+}
+
+/* line 52, ../scss/app.scss */
 .round {
   border-radius: 999px;
 }
 
-/* line 10, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
+.round-with-border {
+  border-radius: 999px;
+  border: solid .5em #fff;
+}
+
+/* line 59, ../scss/app.scss */
 hr {
   border-top: 1px dotted;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 16, ../scss/app.scss */
+  /* line 65, ../scss/app.scss */
   .small-text-center {
     text-align: center;
   }
 }
-/* line 22, ../scss/app.scss */
-.center-inline-list {
+/* line 71, ../scss/app.scss */
+.center-block {
   display: table;
   margin: 0 auto;
+}
+
+/* line 77, ../scss/app.scss */
+.pull-down-25 {
+  margin-bottom: -25%;
+}
+
+/* line 78, ../scss/app.scss */
+.pull-down-30 {
+  margin-bottom: -30%;
+}
+
+/* line 79, ../scss/app.scss */
+.pull-down-50 {
+  margin-bottom: -50%;
+}
+
+/* line 80, ../scss/app.scss */
+.pull-down-60 {
+  margin-bottom: -60%;
+}
+
+/* line 81, ../scss/app.scss */
+.pull-down-75 {
+  margin-bottom: -75%;
+}
+
+/* line 82, ../scss/app.scss */
+.pull-down-100 {
+  margin-bottom: -100%;
+}
+
+/* line 84, ../scss/app.scss */
+.push-up-2 {
+  margin-top: -2em;
+}
+
+/* line 87, ../scss/app.scss */
+.push-to-front {
+  z-index: 1;
+}
+
+/* line 88, ../scss/app.scss */
+.push-to-back {
+  z-index: -1;
+}
+
+/* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
+/* line 92, ../scss/app.scss */
+.cl-effect-2 a {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* line 98, ../scss/app.scss */
+.cl-effect-2 a span {
+  padding: 0 15px;
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 114, ../scss/app.scss */
+.csstransforms3d .cl-effect-2 a span::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  background: transparent;
+  color: #fff;
+  content: attr(data-hover);
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+
+/* line 136, ../scss/app.scss */
+.cl-effect-2 a:hover span,
+.cl-effect-2 a:focus span {
+  -webkit-transform: rotateX(90deg) translateY(-22px);
+  -moz-transform: rotateX(90deg) translateY(-22px);
+  transform: rotateX(90deg) translateY(-22px);
+}
+
+/* line 143, ../scss/app.scss */
+.csstransforms3d .cl-effect-2 a:hover span::before,
+.csstransforms3d .cl-effect-2 a:focus span::before {
+  background: #ff7200;
 }

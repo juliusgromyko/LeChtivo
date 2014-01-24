@@ -1,63 +1,111 @@
-   <!-- First Band (Image) -->
- 
-  <div class="row">
-    <div class="large-12 columns">
-      <img src="http://placehold.it/1000x400&text=[img]">
- 
+<% Article_URL="http://localhost:8080/article" %>
+<% Article_Topic_Icon="http://placehold.it/888/300x300&text=[Icon]" %>
+<% Article_Topic_Name="Продуктивность" %>
+<% Article_Topic_URL="http://LeChtivo.com/tag/productivity" %>
+<% Article_Photo="http://placehold.it/1000x400&text=[img]" %>
+<% Article_Author="Ольга Кожар" %>
+<% Article_Author_URL="http://LeChtivo.com/user/OlgaKojar" %>
+<% Article_Date="22.06.2014" %>
+<% Article_Date_URL="http://LeChtivo.com/date/22.06.2014" %>
+<% Article_PageViews="10" %>
+<% Article_Title="Не нужно долго думать, пришло время действовать" %>
+<% Article_Text="У вас появилась идея нового стартапа и вы долго ее продумываете, вынашиваете, постоянно откладываете реализацию на потом. Все действия аргументируются тем, что лучше «семь раз отмерить и один раз отрезать» и если такой принцип вполне применим к обычной жизни, то для бизнеса он совершенно не подходит." %>
+
+<!-- Main Layer -->
+<div class="row">
+  <div class="large-8 columns">
+
+
+    <!-- Articles index section-->
+    <div class="row">
+
+
+
+      <% 5.times do %> 
+      <!-- Article Start -->
+
+      <div class="large-3 columns push-to-front show-for-medium-up">
+        <a href="<%= Article_Topic_URL %>" title="Просмотреть все статьи по теме <%= Article_Topic_Name %>"><img src="<%= Article_Topic_Icon %>" class="round-with-border pull-down-30" alt="<%= Article_Topic_Name %>"></a>
+      </div>
+
+      <div class="large-9 columns">
+        <h3><a href="<%= Article_URL %>" class="article-title"><%= Article_Title %></a>
+          <!-- Share block -->
+          <div class="yashare-auto-init right" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="<%= Article_URL %>" data-yashareTitle="<%= Article_Title %>" data-yashareDescription="<%= Article_Text %>" data-yashareImage="<%= Article_Photo %>"></div>
+        </h3>
+      </div>
+
+      <div class="large-12 columns">
+        <a href="<%= Article_URL %>" title="<%= Article_Title %>"><img src="<%= Article_Photo %>"></a>
+        <small class="article-info-line">
+          <a href="<%= Article_Author_URL %>" class="author" title="Автор: <%= Article_Author %>"><%= Article_Author %></a>
+          •
+          <a href="<%= Article_Date_URL %>" class="calendar" title="Дата публикации: <%= Article_Date %>"><%= Article_Date %></a>
+          •
+          <a href="<%= Article_URL %>#disqus_thread" class="comments" title="Просмотреть комментарии"></a>
+          •
+          <a href="" class="views" title="Просмотров страницы: <%= Article_PageViews %>"><%= Article_PageViews %></a>
+        </small>
+        <br>
+        <p>
+          <%= Article_Text %> <a href="<%= Article_URL %>">Читать дальше →</a>
+        </p>
+      </div>
+
       <hr>
-    </div>
-  </div>
-  <!-- Second Band (Image Left with Text) -->
- 
-  <div class="row">
-    <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]">
-    </div>
-    <div class="large-8 columns">
-      <h4>This is a content section.</h4>
+      <!-- Article End -->
+      <% end %>
+
+
+
+      <!-- PAGINATOR -->
       <div class="row">
-        <div class="large-6 columns">
-          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-        </div>
-        <div class="large-6 columns">
-          <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+        <div class="small-12 columns">
+          <div class="pagination-centered">
+            <ul class="pagination">
+              <li class="arrow unavailable"><a href="">&laquo;</a></li>
+              <li class="current"><a href="">1</a></li>
+              <li><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">4</a></li>
+              <li class="unavailable"><a href="">&hellip;</a></li>
+              <li><a href="">12</a></li>
+              <li><a href="">13</a></li>
+              <li class="arrow"><a href="">&raquo;</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
- 
- 
-  <!-- Third Band (Image Right with Text) -->
- 
-  <div class="row">
-    <div class="large-8 columns">
-      <h4>This is a content section.</h4>
- 
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
- 
-      <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
- 
-    </div>
-    <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]">
-    </div>
+
+  <!-- Aside panel -->
+  <div class="large-4 columns">
+
+    <h5 class="text-center">Подпишись на Le Chtivo</h5>
+     и получай всё лучшее по email
+
+    <img src="http://placehold.it/400x300&text=[img]">
+
+    <h5 class="text-center">–– ЛУЧШЕЕ ––</h5>
+
+    <h5 class="text-center">–– ПОПУЛЯРНЫЕ ТЕМЫ ––</h5>
+
   </div>
 
-
-
-  <!-- PAGINATOR -->
-<div class="row">
-  <div class="small-12 large-8 large-offset-2 columns">
-    <ul class="pagination">
-      <li class="arrow unavailable"><a href="">&laquo;</a></li>
-      <li class="current"><a href="">1</a></li>
-      <li><a href="">2</a></li>
-      <li><a href="">3</a></li>
-      <li><a href="">4</a></li>
-      <li class="unavailable"><a href="">&hellip;</a></li>
-      <li><a href="">12</a></li>
-      <li><a href="">13</a></li>
-      <li class="arrow"><a href="">&raquo;</a></li>
-    </ul>
-  </div>
 </div>
+
+<!-- Discus comments counter script -->
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'lechtivo'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+    

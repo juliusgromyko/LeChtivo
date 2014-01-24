@@ -1043,8 +1043,7 @@ $topbar-dropdown-bg: $topbar-bg-color;
 // Set the link colors and styles for top-level nav
 
 $topbar-link-color: $primary-color;
-$topbar-link-color-hover: $primary-color;
-$topbar-link-color-active: $primary-color;
+$topbar-link-color-hover: lighten($primary-color,10);
 $topbar-link-bg-active: $topbar-bg-color;
 
 // $topbar-link-color: #fff;
