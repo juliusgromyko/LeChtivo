@@ -57,6 +57,9 @@
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
+$primary-color: #FF7200;
+
+
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
 // $global-rounded: 1000px;
@@ -1015,15 +1018,20 @@
 // $topbar-bg-color: #333;
 // $topbar-bg: $topbar-bg-color;
 
+$topbar-bg-color: #fff;
+$topbar-bg: $topbar-bg-color;
+
 // Height and margin
 // $topbar-height: 45px;
 // $topbar-margin-bottom: 0;
+$topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: normal;
 // $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
+$topbar-dropdown-bg: $topbar-bg-color;
 // $topbar-dropdown-bg: #333;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-link-bg: #333;
@@ -1033,11 +1041,19 @@
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
+
+$topbar-link-color: $primary-color;
+$topbar-link-color-hover: $primary-color;
+$topbar-link-color-active: $primary-color;
+$topbar-link-bg-active: $topbar-bg-color;
+
 // $topbar-link-color: #fff;
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
 // $topbar-link-weight: normal;
 // $topbar-link-font-size: rem-calc(13);
+
+$topbar-link-font-size: rem-calc(16);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg-hover: #272727  ;
 // $topbar-link-bg-active: $primary-color;
@@ -1055,7 +1071,10 @@
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
+$topbar-menu-link-font-size: rem-calc(24);
 // $topbar-menu-link-weight: bold;
+$topbar-menu-link-color: $primary-color;
+$topbar-menu-icon-color: $primary-color;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
 // $topbar-menu-link-color-toggled: #888;

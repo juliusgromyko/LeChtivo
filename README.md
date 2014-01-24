@@ -13,4 +13,4 @@ Used tools: FireApp, Sublime, git
   * [bower](http://bower.io): `npm install bower -g`
 
 ## Copyrights
-Julius Gromyko (c) 2014
+[Julius Gromyko](http://Juleg.com) (c) 2014

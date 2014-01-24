@@ -1,6 +1,29 @@
 @import "settings";
 @import "foundation";
 
+// Round helper
+.round{
+	border-radius: 999px;
+	}
+
+// Making dotted HR
+hr{
+	border-top: 1px dotted;
+}
+
+// Small text center helper
+@media only screen and (max-width: 40em) {
+	.small-text-center{
+		text-align: center;
+	}
+}
+
+// Center inline list helper
+.center-inline-list {
+	display: table;
+	margin: 0 auto;
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
