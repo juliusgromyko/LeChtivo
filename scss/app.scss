@@ -1,8 +1,12 @@
 @import "settings";
 @import "foundation";
 
-// Article title
+// Fix for shaky titles
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
 
+// Article title
 a.article-title{
 	color: #666;
 }
@@ -93,10 +97,11 @@ hr{
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
+	background: transparent;
 }
 
 .cl-effect-2 a span {
-	padding: 0 15px;
+	padding: 0 1em;
 	position: relative;
 	display: inline-block;
 	background: transparent;
@@ -111,13 +116,13 @@ hr{
 	transform-style: preserve-3d;
 }
 
-.csstransforms3d .cl-effect-2 a span::before {
+.cl-effect-2 a span::before {
 	position: absolute;
 	top: 100%;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	padding: 0 15px;
+	padding: 0 1em;
 	background: transparent;
 	color: #fff;
 	content: attr(data-hover);
@@ -134,12 +139,12 @@ hr{
 
 .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
-	-webkit-transform: rotateX(90deg) translateY(-22px);
-	-moz-transform: rotateX(90deg) translateY(-22px);
-	transform: rotateX(90deg) translateY(-22px);
+	-webkit-transform: rotateX(90deg) translateY(-1em);
+	-moz-transform: rotateX(90deg) translateY(-1em);
+	transform: rotateX(90deg) translateY(-1em);
 }
 
-.csstransforms3d .cl-effect-2 a:hover span::before,
-.csstransforms3d .cl-effect-2 a:focus span::before {
+.cl-effect-2 a:hover span::before,
+.cl-effect-2 a:focus span::before {
 	background: $primary-color;	
 }

@@ -1,12 +1,12 @@
-<% Article_URL="http://localhost:8080/article" %>
+<% Article_URL="/article" %>
 <% Article_Topic_Icon="http://placehold.it/888/300x300&text=[Icon]" %>
 <% Article_Topic_Name="Продуктивность" %>
-<% Article_Topic_URL="http://LeChtivo.com/tag/productivity" %>
+<% Article_Topic_URL="h/tag/productivity" %>
 <% Article_Photo="http://placehold.it/1000x400&text=[img]" %>
 <% Article_Author="Ольга Кожар" %>
-<% Article_Author_URL="http://LeChtivo.com/user/OlgaKojar" %>
+<% Article_Author_URL="/user/OlgaKojar" %>
 <% Article_Date="22.06.2014" %>
-<% Article_Date_URL="http://LeChtivo.com/date/22.06.2014" %>
+<% Article_Date_URL="/date/22.06.2014" %>
 <% Article_PageViews="10" %>
 <% Article_Title="Не нужно долго думать, пришло время действовать" %>
 <% Article_Text="У вас появилась идея нового стартапа и вы долго ее продумываете, вынашиваете, постоянно откладываете реализацию на потом. Все действия аргументируются тем, что лучше «семь раз отмерить и один раз отрезать» и если такой принцип вполне применим к обычной жизни, то для бизнеса он совершенно не подходит." %>
@@ -82,14 +82,52 @@
   <!-- Aside panel -->
   <div class="large-4 columns">
 
-    <h5 class="text-center">Подпишись на Le Chtivo</h5>
-     и получай всё лучшее по email
 
-    <img src="http://placehold.it/400x300&text=[img]">
+    <!-- SUBSCRIBE FORM -->
+    <h5 class="text-center">–– ДАЙЖДЕСТ ––</h5>
+    Подпишись на наш дайджест и получай лучшие наши статьи себе на email
+    <hr>
 
+    <!-- PROMO BLOCK -->
+    <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+    <br>
+
+    <!-- POPULAR ARTICLES -->
+    <br>
     <h5 class="text-center">–– ЛУЧШЕЕ ––</h5>
+    <% 5.times do %> 
+    <a href="<%= Article_URL %>" class="article-title"><%= Article_Title %>
+      <small> – <%= Article_Author%>, <%= Article_Date %></small>
+    </a>
+    <hr>
+    <% end %>
+    <br>
 
+    <!-- PROMO BLOCK -->
+    <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+    <br>
+
+    <!-- POPULAR TOPICS -->
+    <br>
     <h5 class="text-center">–– ПОПУЛЯРНЫЕ ТЕМЫ ––</h5>
+    <p class="text-center">
+      <a href="http://lechtivo.com/tag/">Продуктивность</a>
+       – 
+      <a href="http://lechtivo.com/tag/">Вдохновение</a>
+       – 
+      <a href="http://lechtivo.com/tag/">Дизайн</a>
+       – 
+      <a href="http://lechtivo.com/tag/">Бизнес</a>
+       – 
+      <a href="http://lechtivo.com/tag/">Книги</a>
+       – 
+      <a href="http://lechtivo.com/tag/">Еда</a>
+       – 
+      <a href="http://lechtivo.com/tag/">Путешествия</a>
+       – 
+      <a href="http://lechtivo.com/tag/">Кафе</a>
+    </p>
+    <hr>
 
   </div>
 

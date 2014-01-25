@@ -29,31 +29,31 @@
   <div class="row">
     <br>
     <div class="large-12 large-centered columns text-center">
-      <h1><a href="<%= Base_URL %>"><img src="/img/logo1_x400.png" alt="Le Chtivo"></a></h1>
+      <h1><a href="<%= Base_URL %>"><img src="img/logo3.png" alt="Le Chtivo"></a></h1>
     </div>
   </div>
 
   <div class="row">
-  <div class="large-12 large-centered columns text-center">
-  <div class="contain-to-grid sticky">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name"></li>
-        <li class="toggle-topbar"><a href="#"><i class="icon-menu" alt="Menu"></i></a></li>
-      </ul>
+    <div class="large-12 large-centered columns text-center">
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar"><a href="#"><i class="icon-menu" alt="Menu"></i></a></li>
+          </ul>
 
-      <section class="top-bar-section center-block">
-        <ul>
-          <% Menu_Items.each do |Menu_Item| %>
-            <li class="cl-effect-2"><a href="<%= Menu_Item[:url] %>">
-              <span data-hover="<%= Menu_Item[:name] %>"><%= Menu_Item[:name] %></span>
-            </a></li>
-          <% end %>
-        </ul>
-      </section>
-    </nav>
-  </div>
-  </div>
+          <section class="top-bar-section center-block">
+            <ul>
+              <% Menu_Items.each do |Menu_Item| %>
+                <li class="cl-effect-2"><a href="<%= Menu_Item[:url] %>">
+                  <span data-hover="<%= Menu_Item[:name] %>"><%= Menu_Item[:name] %></span>
+                </a></li>
+              <% end %>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
   </div>
  
   <!-- End Header and Nav -->
