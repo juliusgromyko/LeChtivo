@@ -1,7 +1,7 @@
 <% Article_URL="/article" %>
-<% Article_Topic_Icon="http://placehold.it/888/300x300&text=[Icon]" %>
+<% Article_Topic_Icon="img/topics/productivity.png" %>
 <% Article_Topic_Name="Продуктивность" %>
-<% Article_Topic_URL="h/tag/productivity" %>
+<% Article_Topic_URL="/tag/productivity" %>
 <% Article_Photo="http://placehold.it/1000x500&text=[img]" %>
 <% Article_Author="Ольга Кожар" %>
 <% Article_Author_URL="/user/OlgaKojar" %>
@@ -10,8 +10,6 @@
 <% Article_PageViews="10" %>
 <% Article_Title="Не нужно долго думать, пришло время действовать" %>
 <% Article_Text="У вас появилась идея нового стартапа и вы долго ее продумываете, вынашиваете, постоянно откладываете реализацию на потом. Все действия аргументируются тем, что лучше «семь раз отмерить и один раз отрезать» и если такой принцип вполне применим к обычной жизни, то для бизнеса он совершенно не подходит." %>
-
-<% Article_Topic_Icon="img/topics/productivity.png" %>
 
 <!-- Main Layer -->
 <div class="row">
@@ -42,7 +40,7 @@
           <div class="image-container proportion-2x1">
             <a href="<%= Article_URL %>" title="<%= Article_Title %>"><img src="<%= Article_Photo %>"></a>
           </div>
-          <small class="article-info-line">
+          <small class="article-info-line sub-article-info-line">
             <a href="<%= Article_Author_URL %>" class="author" title="Автор: <%= Article_Author %>"><%= Article_Author %></a>
             •
             <a href="<%= Article_Date_URL %>" class="calendar" title="Дата публикации: <%= Article_Date %>"><%= Article_Date %></a>

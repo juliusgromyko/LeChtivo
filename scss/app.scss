@@ -39,6 +39,10 @@ a.article-title:hover{
 	padding-bottom: 25%;
 }
 
+.proportion-12x1{
+	padding-bottom: 8.333%;
+}
+
 .image-container{
 	position: relative;
 	width: 100%;
@@ -59,6 +63,8 @@ a.article-title:hover{
 
 article:hover .image-container img,
 article:focus .image-container img,
+a:hover .image-container img,
+a:focus .image-container img,
 .image-container:hover img,
 .image-container:focus img{
 	-webkit-transform: scale(1.25);
@@ -68,7 +74,7 @@ article:focus .image-container img,
 }
 
 // Article info line
-article .article-info-line{
+article .sub-article-info-line{
 	display: block;
 	text-align: center;
 	position: relative;
@@ -79,14 +85,16 @@ article .article-info-line{
 	-webkit-transition: bottom 0.3s;
 	-moz-transition: bottom 0.3s;
 	transition: bottom 0.3s;
+	opacity: 0;
 }
 
-article:hover .article-info-line,
-article:focus .article-info-line{
+article:hover .sub-article-info-line,
+article:focus .sub-article-info-line{
 	bottom: 2em;
+	opacity: 1;
 }
 
-.article-info-line a{
+.sub-article-info-line a{
 	color: #fff;
 	text-decoration: underline;
 	background: transparent;

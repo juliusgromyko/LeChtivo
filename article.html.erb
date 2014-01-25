@@ -1,47 +1,113 @@
-   <!-- First Band (Image) -->
- 
-  <div class="row">
+<% Article_URL="/article" %>
+<% Article_Topic_Icon="img/topics/productivity.png" %>
+<% Article_Topic_Name="Продуктивность" %>
+<% Article_Topic_URL="/tag/productivity" %>
+<% Article_Photo="http://placehold.it/1000x200&text=[img]" %>
+<% Article_Photo_Square="http://placehold.it/200x200&text=[img]" %>
+<% Article_Author="Ольга Кожар" %>
+<% Article_Author_URL="/user/OlgaKojar" %>
+<% Article_Date="22.06.2014" %>
+<% Article_Date_URL="/date/22.06.2014" %>
+<% Article_PageViews="10" %>
+<% Article_Title="Не нужно долго думать, пришло время действовать" %>
+<% Article_Text="У вас появилась идея нового стартапа и вы долго ее продумываете, вынашиваете, постоянно откладываете реализацию на потом. Все действия аргументируются тем, что лучше «семь раз отмерить и один раз отрезать» и если такой принцип вполне применим к обычной жизни, то для бизнеса он совершенно не подходит." %>   
+
+<!-- Article -->
+<br>
+<div class="row">
+  <article>
+    <div class="large-2 columns push-to-front show-for-medium-up">
+      <a href="<%= Article_Topic_URL %>" title="Просмотреть все статьи по теме <%= Article_Topic_Name %>"><img src="<%= Article_Topic_Icon %>" class="round-with-border pull-down-30" alt="<%= Article_Topic_Name %>"></a>
+    </div>
+
+    <div class="large-9 columns">
+      <!-- Article Title -->
+      <h3><%= Article_Title %>
+        <!-- Share block -->
+        <div class="yashare-auto-init right" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="<%= Article_URL %>" data-yashareTitle="<%= Article_Title %>" data-yashareDescription="<%= Article_Text %>" data-yashareImage="<%= Article_Photo %>"></div>
+      </h3>
+
+      <!-- Article info line -->
+      <small class="article-info-line">
+        <a href="<%= Article_Author_URL %>" class="author" title="Автор: <%= Article_Author %>"><%= Article_Author %></a>
+        •
+        <a href="<%= Article_Date_URL %>" class="calendar" title="Дата публикации: <%= Article_Date %>"><%= Article_Date %></a>
+        •
+        <a href="<%= Article_URL %>#disqus_thread" class="comments" title="Просмотреть комментарии"></a>
+        •
+        <a href="" class="views" title="Просмотров страницы: <%= Article_PageViews %>"><%= Article_PageViews %></a>
+      </small>
+
+    </div>
+
+    <!-- Article Main Image -->
     <div class="large-12 columns">
-      <img src="http://placehold.it/1000x400&text=[img]">
- 
-      <hr>
+      <img src="<%= Article_Photo %>">
+      <br>
+      <br>
+      
+    <!-- Article body text -->
+    <% 5.times do %> 
+      <p>
+        <%= Article_Text %>
+      </p>
+    <% end %>
+
     </div>
+  </article>
+
+  <!-- TAGS -->
+  <div class="large-12 columns">
+    <dl class="sub-nav">
+      <dt>Метки:</dt>
+      <dd class="active"><a href="<%= Article_Topic_URL %>"><%= Article_Topic_Name %></a></dd>
+      <dd><a href="<%= Article_Topic_URL %>">Советы</a></dd>
+      <dd><a href="<%= Article_Topic_URL %>">GTD</a></dd>
+      <dd><a href="<%= Article_Topic_URL %>">LifeHack</a></dd>
+      <dd><a href="<%= Article_Topic_URL %>">Присланное</a></dd>
+    </dl>
+
+    <!-- Share block -->
+    Поделиться с друзьями:
+    <div class="yashare-auto-init" style="display: inline-block;" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="<%= Article_URL %>" data-yashareTitle="<%= Article_Title %>" data-yashareDescription="<%= Article_Text %>" data-yashareImage="<%= Article_Photo %>"></div>
+    <br>
   </div>
-  <!-- Second Band (Image Left with Text) -->
- 
-  <div class="row">
-    <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]">
-    </div>
-    <div class="large-8 columns">
-      <h4>This is a content section.</h4>
-      <div class="row">
-        <div class="large-6 columns">
-          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-        </div>
-        <div class="large-6 columns">
-          <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-        </div>
+
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+</div>
+<!-- Article End -->
+
+
+<!-- Sub Post Bar -->
+<div class="row">
+
+  <!-- Similar Articles -->
+  <div class="large-12 columns">
+  <h5 class="text-center">–– ЧИТАЙТЕ ТАКЖЕ ––</h5>
+  <br>
+  <br>
+  </div>
+  <% 4.times do %> 
+  <div class="large-3 columns">
+    <a href="<%= Article_URL %>" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="<%= Article_Photo_Square %>">
       </div>
-    </div>
+      <br>
+      <%= Article_Title %>
+      <br>
+    </a>
+    
   </div>
- 
- 
-  <!-- Third Band (Image Right with Text) -->
- 
-  <div class="row">
-    <div class="large-8 columns">
-      <h4>This is a content section.</h4>
- 
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
- 
-      <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
- 
-    </div>
-    <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]">
-    </div>
+  <% end %>
+    
+  <div class="large-12 columns">
+    <hr>
   </div>
+</div>
 
 <!-- Comments -->
 <div class="row">
@@ -59,6 +125,50 @@
       })();
       </script>
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+
+<!-- Article SubFooter -->
+<div class="row">
+  
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+  <!-- Subsribe Form -->
+  <div class="large-4 columns">
+    <h5 class="text-center">–– ПОДПИСАТЬСЯ ––</h5>
+    <br>
+    <p>Подпишись на наш дайджест и получай лучшие наши статьи себе на email</p>
+    <form action="http://lechtivo.us3.list-manage.com/subscribe/post?u=cdd10a9b7ae4acfa0e3c29cd9&amp;id=f0a15e5367" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-abide>
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="email" name="EMAIL" placeholder="Адресс электронной почты" required/>
+          <small class="error">Указан неверный адрес электронной почты</small>
+        </div>
+        <div class="large-12 columns">
+          <input type="submit" name="subscribe" value="ПОДПИСАТЬСЯ" class="button small large-12">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- PROMO BLOCK 1 -->
+  <div class="large-4 columns">
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
+  </div>
+
+  <!-- PROMO BLOCK 2 -->
+  <div class="large-4 columns">
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
   </div>
 </div>
     
