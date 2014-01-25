@@ -23,14 +23,29 @@ a.article-title:hover{
 }
 
 // Article image
+.proportion-1x1{
+	padding-bottom: 100%;
+}
+
+.proportion-4x3{
+	padding-bottom: 75%;
+}
+
+.proportion-2x1{
+	padding-bottom: 50%;
+}
+
+.proportion-4x1{
+	padding-bottom: 25%;
+}
+
 .image-container{
 	position: relative;
-	float: left;
 	width: 100%;
 	height: 0;
-	padding-bottom: 50%;
 	overflow: hidden;
 }
+
 .image-container img{
 	width: 100%;
     height: auto;
@@ -42,7 +57,10 @@ a.article-title:hover{
     opacity: .75;
 }
 
-article:hover .image-container img{
+article:hover .image-container img,
+article:focus .image-container img,
+.image-container:hover img,
+.image-container:focus img{
 	-webkit-transform: scale(1.25);
 	-moz-transform: scale(1.25);
 	transform: scale(1.25);

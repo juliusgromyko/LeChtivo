@@ -2,7 +2,7 @@
 <% Article_Topic_Icon="http://placehold.it/888/300x300&text=[Icon]" %>
 <% Article_Topic_Name="Продуктивность" %>
 <% Article_Topic_URL="h/tag/productivity" %>
-<% Article_Photo="http://placehold.it/1000x400&text=[img]" %>
+<% Article_Photo="http://placehold.it/1000x500&text=[img]" %>
 <% Article_Author="Ольга Кожар" %>
 <% Article_Author_URL="/user/OlgaKojar" %>
 <% Article_Date="22.06.2014" %>
@@ -11,9 +11,7 @@
 <% Article_Title="Не нужно долго думать, пришло время действовать" %>
 <% Article_Text="У вас появилась идея нового стартапа и вы долго ее продумываете, вынашиваете, постоянно откладываете реализацию на потом. Все действия аргументируются тем, что лучше «семь раз отмерить и один раз отрезать» и если такой принцип вполне применим к обычной жизни, то для бизнеса он совершенно не подходит." %>
 
-<% Article_Topic_Icon="img/Affiliate Marketing.png" %>
-
-<% Article_Photo="img/photodune-1867771-freedom-boy-playing-football-l.jpg" %>
+<% Article_Topic_Icon="img/topics/productivity.png" %>
 
 <!-- Main Layer -->
 <div class="row">
@@ -41,7 +39,7 @@
         </div>
 
         <div class="large-12 columns">
-          <div class="image-container">
+          <div class="image-container proportion-2x1">
             <a href="<%= Article_URL %>" title="<%= Article_Title %>"><img src="<%= Article_Photo %>"></a>
           </div>
           <small class="article-info-line">
@@ -92,17 +90,35 @@
 
 
     <!-- SUBSCRIBE FORM -->
+    <br>
     <h5 class="text-center">–– ДАЙЖДЕСТ ––</h5>
-    Подпишись на наш дайджест и получай лучшие наши статьи себе на email
+    <br>
+    <p>Подпишись на наш дайджест и получай лучшие наши статьи себе на email</p>
+    <form action="http://lechtivo.us3.list-manage.com/subscribe/post?u=cdd10a9b7ae4acfa0e3c29cd9&amp;id=f0a15e5367" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-abide>
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="email" name="EMAIL" placeholder="Адресс электронной почты" required/>
+          <small class="error">Указан неверный адрес электронной почты</small>
+        </div>
+        <div class="large-12 columns">
+          <input type="submit" name="subscribe" value="ПОДПИСАТЬСЯ" class="button small large-12">
+        </div>
+      </div>
+    </form>
     <hr>
 
     <!-- PROMO BLOCK -->
-    <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
     <br>
 
     <!-- POPULAR ARTICLES -->
     <br>
     <h5 class="text-center">–– ЛУЧШЕЕ ––</h5>
+    <br>
     <% 5.times do %> 
     <a href="<%= Article_URL %>" class="article-title"><%= Article_Title %>
       <small> – <%= Article_Author%>, <%= Article_Date %></small>
@@ -112,12 +128,17 @@
     <br>
 
     <!-- PROMO BLOCK -->
-    <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
     <br>
 
     <!-- POPULAR TOPICS -->
     <br>
     <h5 class="text-center">–– ПОПУЛЯРНЫЕ ТЕМЫ ––</h5>
+    <br>
     <p class="text-center">
       <a href="http://lechtivo.com/tag/">Продуктивность</a>
        – 
