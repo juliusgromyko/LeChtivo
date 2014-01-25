@@ -11,6 +11,10 @@
 <% Article_Title="Не нужно долго думать, пришло время действовать" %>
 <% Article_Text="У вас появилась идея нового стартапа и вы долго ее продумываете, вынашиваете, постоянно откладываете реализацию на потом. Все действия аргументируются тем, что лучше «семь раз отмерить и один раз отрезать» и если такой принцип вполне применим к обычной жизни, то для бизнеса он совершенно не подходит." %>
 
+<% Article_Topic_Icon="img/Affiliate Marketing.png" %>
+
+<% Article_Photo="img/photodune-1867771-freedom-boy-playing-football-l.jpg" %>
+
 <!-- Main Layer -->
 <div class="row">
   <div class="large-8 columns">
@@ -24,33 +28,37 @@
       <% 5.times do %> 
       <!-- Article Start -->
 
-      <div class="large-3 columns push-to-front show-for-medium-up">
-        <a href="<%= Article_Topic_URL %>" title="Просмотреть все статьи по теме <%= Article_Topic_Name %>"><img src="<%= Article_Topic_Icon %>" class="round-with-border pull-down-30" alt="<%= Article_Topic_Name %>"></a>
-      </div>
+      <article>
+        <div class="large-3 columns push-to-front show-for-medium-up">
+          <a href="<%= Article_Topic_URL %>" title="Просмотреть все статьи по теме <%= Article_Topic_Name %>"><img src="<%= Article_Topic_Icon %>" class="round-with-border pull-down-30" alt="<%= Article_Topic_Name %>"></a>
+        </div>
 
-      <div class="large-9 columns">
-        <h3><a href="<%= Article_URL %>" class="article-title"><%= Article_Title %></a>
-          <!-- Share block -->
-          <div class="yashare-auto-init right" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="<%= Article_URL %>" data-yashareTitle="<%= Article_Title %>" data-yashareDescription="<%= Article_Text %>" data-yashareImage="<%= Article_Photo %>"></div>
-        </h3>
-      </div>
+        <div class="large-9 columns">
+          <h3><a href="<%= Article_URL %>" class="article-title"><%= Article_Title %></a>
+            <!-- Share block -->
+            <div class="yashare-auto-init right" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="<%= Article_URL %>" data-yashareTitle="<%= Article_Title %>" data-yashareDescription="<%= Article_Text %>" data-yashareImage="<%= Article_Photo %>"></div>
+          </h3>
+        </div>
 
-      <div class="large-12 columns">
-        <a href="<%= Article_URL %>" title="<%= Article_Title %>"><img src="<%= Article_Photo %>"></a>
-        <small class="article-info-line">
-          <a href="<%= Article_Author_URL %>" class="author" title="Автор: <%= Article_Author %>"><%= Article_Author %></a>
-          •
-          <a href="<%= Article_Date_URL %>" class="calendar" title="Дата публикации: <%= Article_Date %>"><%= Article_Date %></a>
-          •
-          <a href="<%= Article_URL %>#disqus_thread" class="comments" title="Просмотреть комментарии"></a>
-          •
-          <a href="" class="views" title="Просмотров страницы: <%= Article_PageViews %>"><%= Article_PageViews %></a>
-        </small>
-        <br>
-        <p>
-          <%= Article_Text %> <a href="<%= Article_URL %>">Читать дальше →</a>
-        </p>
-      </div>
+        <div class="large-12 columns">
+          <div class="image-container">
+            <a href="<%= Article_URL %>" title="<%= Article_Title %>"><img src="<%= Article_Photo %>"></a>
+          </div>
+          <small class="article-info-line">
+            <a href="<%= Article_Author_URL %>" class="author" title="Автор: <%= Article_Author %>"><%= Article_Author %></a>
+            •
+            <a href="<%= Article_Date_URL %>" class="calendar" title="Дата публикации: <%= Article_Date %>"><%= Article_Date %></a>
+            •
+            <a href="<%= Article_URL %>#disqus_thread" class="comments" title="Просмотреть комментарии"></a>
+            •
+            <a href="" class="views" title="Просмотров страницы: <%= Article_PageViews %>"><%= Article_PageViews %></a>
+          </small>
+          <br>
+          <p>
+            <%= Article_Text %> <a href="<%= Article_URL %>">Читать дальше →</a>
+          </p>
+        </div>
+      </article>
 
       <hr>
       <!-- Article End -->

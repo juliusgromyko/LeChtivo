@@ -6805,138 +6805,192 @@ a.th {
 }
 
 /* line 5, ../scss/app.scss */
+* {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 11, ../scss/app.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* line 10, ../scss/app.scss */
+/* line 16, ../scss/app.scss */
 a.article-title {
   color: #666;
 }
 
-/* line 14, ../scss/app.scss */
+/* line 20, ../scss/app.scss */
 a.article-title:hover {
   color: #222;
   border-bottom: dotted .1em black;
 }
 
-/* line 20, ../scss/app.scss */
-.article-info-line {
+/* line 26, ../scss/app.scss */
+.image-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  overflow: hidden;
+}
+
+/* line 34, ../scss/app.scss */
+.image-container img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: .75;
+}
+
+/* line 45, ../scss/app.scss */
+article:hover .image-container img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  transform: scale(1.25);
+  opacity: 1;
+}
+
+/* line 53, ../scss/app.scss */
+article .article-info-line {
   display: block;
-  margin-top: -2em;
+  text-align: center;
+  position: relative;
+  margin-bottom: -2em;
+  padding: .5em;
+  color: #fff;
+  bottom: 0em;
+  -webkit-transition: bottom 0.3s;
+  -moz-transition: bottom 0.3s;
+  transition: bottom 0.3s;
+}
+
+/* line 67, ../scss/app.scss */
+article:hover .article-info-line,
+article:focus .article-info-line {
+  bottom: 2em;
+}
+
+/* line 71, ../scss/app.scss */
+.article-info-line a {
+  color: #fff;
+  text-decoration: underline;
+  background: transparent;
   padding: .5em;
 }
 
-/* line 26, ../scss/app.scss */
-.article-info-line a {
-  color: #666;
-  text-decoration: underline;
-}
-
-/* line 31, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 .article-info-line a:hover {
   color: #ff7200;
+  background: #fff;
+  border-radius: .25em;
 }
 
-/* line 35, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .article-info-line a.views::before {
   font-family: "fontello";
   content: "\e806\20";
 }
 
-/* line 40, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 .article-info-line a.author::before {
   font-family: "fontello";
   content: "\e808\20";
 }
 
-/* line 45, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .article-info-line a.calendar::before {
   font-family: "fontello";
   content: "\e809\20";
 }
 
-/* line 50, ../scss/app.scss */
+/* line 99, ../scss/app.scss */
 .article-info-line a.comments::before {
   font-family: "fontello";
   content: "\e807\20";
 }
 
-/* line 56, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .round {
   border-radius: 999px;
 }
 
-/* line 57, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .round-with-border {
   border-radius: 999px;
   border: solid .5em #fff;
+  background-color: #fff;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 hr {
   border-top: 1px dotted;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 69, ../scss/app.scss */
+  /* line 119, ../scss/app.scss */
   .small-text-center {
     text-align: center;
   }
 }
-/* line 75, ../scss/app.scss */
+/* line 125, ../scss/app.scss */
 .center-block {
   display: table;
   margin: 0 auto;
 }
 
-/* line 81, ../scss/app.scss */
+/* line 131, ../scss/app.scss */
 .pull-down-25 {
   margin-bottom: -25%;
 }
 
-/* line 82, ../scss/app.scss */
+/* line 132, ../scss/app.scss */
 .pull-down-30 {
   margin-bottom: -30%;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 .pull-down-50 {
   margin-bottom: -50%;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 134, ../scss/app.scss */
 .pull-down-60 {
   margin-bottom: -60%;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 135, ../scss/app.scss */
 .pull-down-75 {
   margin-bottom: -75%;
 }
 
-/* line 86, ../scss/app.scss */
+/* line 136, ../scss/app.scss */
 .pull-down-100 {
   margin-bottom: -100%;
 }
 
-/* line 88, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 .push-up-2 {
   margin-top: -2em;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 141, ../scss/app.scss */
 .push-to-front {
   z-index: 1;
 }
 
-/* line 92, ../scss/app.scss */
+/* line 142, ../scss/app.scss */
 .push-to-back {
   z-index: -1;
 }
 
 /* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
-/* line 96, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 .cl-effect-2 a {
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
@@ -6944,7 +6998,7 @@ hr {
   background: transparent;
 }
 
-/* line 103, ../scss/app.scss */
+/* line 153, ../scss/app.scss */
 .cl-effect-2 a span {
   padding: 0 1em;
   position: relative;
@@ -6961,7 +7015,7 @@ hr {
   transform-style: preserve-3d;
 }
 
-/* line 119, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 .cl-effect-2 a span::before {
   position: absolute;
   top: 100%;
@@ -6983,7 +7037,7 @@ hr {
   transform-origin: 50% 0;
 }
 
-/* line 141, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
   -webkit-transform: rotateX(90deg) translateY(-1em);
@@ -6991,7 +7045,7 @@ hr {
   transform: rotateX(90deg) translateY(-1em);
 }
 
-/* line 148, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .cl-effect-2 a:hover span::before,
 .cl-effect-2 a:focus span::before {
   background: #ff7200;
