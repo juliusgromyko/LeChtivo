@@ -1,0 +1,228 @@
+@import "settings";
+@import "foundation";
+
+// Fix for unsharp images on animation
+*{
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-backface-visibility:hidden;
+}
+
+// Fix for shaky titles
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+// Article title
+a.article-title{
+	color: #666;
+}
+
+a.article-title:hover{
+	color: #222;
+	border-bottom: dotted .1em black;
+}
+
+// Article image
+.proportion-1x1{
+	padding-bottom: 100%;
+}
+
+.proportion-4x3{
+	padding-bottom: 75%;
+}
+
+.proportion-2x1{
+	padding-bottom: 50%;
+}
+
+.proportion-4x1{
+	padding-bottom: 25%;
+}
+
+.proportion-12x1{
+	padding-bottom: 8.333%;
+}
+
+.image-container{
+	position: relative;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+}
+
+.image-container img{
+	width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    transition: all .25s ease;
+    opacity: .75;
+}
+
+article:hover .image-container img,
+article:focus .image-container img,
+a:hover .image-container img,
+a:focus .image-container img,
+.image-container:hover img,
+.image-container:focus img{
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	transform: scale(1.25);
+	opacity: 1;
+}
+
+// Article info line
+article .sub-article-info-line{
+	display: block;
+	text-align: center;
+	position: relative;
+	margin-bottom: -2em;
+	padding: .5em;
+	color: #fff;
+	bottom: 0em;
+	-webkit-transition: bottom 0.3s;
+	-moz-transition: bottom 0.3s;
+	transition: bottom 0.3s;
+	opacity: 0;
+}
+
+article:hover .sub-article-info-line,
+article:focus .sub-article-info-line{
+	bottom: 2em;
+	opacity: 1;
+}
+
+.sub-article-info-line a{
+	color: #fff;
+	text-decoration: underline;
+	background: transparent;
+	padding: .5em;
+}
+
+.article-info-line a:hover{
+	color: $primary-color;
+	background: #fff;
+	border-radius: .25em;
+}
+
+.article-info-line a.views::before{
+	font-family: "fontello";
+	content: "\e806\20";
+}
+
+.article-info-line a.author::before{
+	font-family: "fontello";
+	content: "\e808\20";
+}
+
+.article-info-line a.calendar::before{
+	font-family: "fontello";
+	content: "\e809\20";
+}
+
+.article-info-line a.comments::before{
+	font-family: "fontello";
+	content: "\e807\20";
+}
+
+// Round helper
+.round{border-radius: 999px;}
+.round-with-border{
+	border-radius: 999px;
+	border: solid .5em #fff;
+	background-color: #fff;
+}
+
+// Making dotted HR
+hr{
+	border-top: 1px dotted;
+}
+
+// Small text center helper
+@media only screen and (max-width: 40em) {
+	.small-text-center{
+		text-align: center;
+	}
+}
+
+// Center block helper
+.center-block {
+	display: table;
+	margin: 0 auto;
+}
+
+// Pull down content helpers
+.pull-down-25{margin-bottom: -25%;}
+.pull-down-30{margin-bottom: -30%;}
+.pull-down-50{margin-bottom: -50%;}
+.pull-down-60{margin-bottom: -60%;}
+.pull-down-75{margin-bottom: -75%;}
+.pull-down-100{margin-bottom: -100%;}
+
+.push-up-2{margin-top: -2em;}
+
+// Z-Index content helpers
+.push-to-front{z-index: 1;}
+.push-to-back{z-index: -1;}
+
+// Hover style for nav links
+/* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
+.cl-effect-2 a {
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+	background: transparent;
+}
+
+.cl-effect-2 a span {
+	padding: 0 1em;
+	position: relative;
+	display: inline-block;
+	background: transparent;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.cl-effect-2 a span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 1em;
+	background: transparent;
+	color: #fff;
+	content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+
+.cl-effect-2 a:hover span,
+.cl-effect-2 a:focus span,
+.cl-effect-2 a:active span, {
+	-webkit-transform: rotateX(90deg) translateY(-1em);
+	-moz-transform: rotateX(90deg) translateY(-1em);
+	transform: rotateX(90deg) translateY(-1em);
+}
+
+.cl-effect-2 a:hover span::before,
+.cl-effect-2 a:focus span::before,
+.cl-effect-2 a:active span::before {
+	background: $primary-color;	
+}

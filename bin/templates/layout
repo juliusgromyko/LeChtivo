@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    {{BASE_URL}}
+    <meta http-equiv="content-type" content="text/html; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Le Chtivo – это блог о еде и путешествиях, продуктивности, предпринимательстве, мировоззрении, интернете и окружающем нас мире.">
+    <meta name="keywords" content="еда, путешествия, предпринимательство, свое дело, продуктивность, советы, lifehack, книги, чтиво, дизайн">
+    <link rel="canonical" href="http://lechtivo.com">
+    <title>{{TITLE}}Le Chtivo | Книги, Места, Еда, Дизайн, Свое Дело, Интересности</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    
+   <!-- Header and Nav -->
+ 
+  <div class="row">
+    <br>
+    <div class="large-12 large-centered columns text-center">
+      <h1><a href="http://lechtivo.com"><img src="img/logo3.png" alt="Le Chtivo"></a></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 large-centered columns text-center">
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar"><a href="#"><i class="icon-menu" alt="Menu"></i></a></li>
+          </ul>
+
+          <section class="top-bar-section center-block">
+            <ul>
+              {{TOP_NAVIGATION}}
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- End Header and Nav -->
+ 
+
+  <!-- Content -->
+  <br><br>
+  {{CONTENT}}
+
+ 
+  <!-- Footer -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <br>
+      <hr />
+      <br>
+      <div class="row">
+
+        <div class="large-6 push-6 columns">
+          <ul class="inline-list right">
+            {{BOTTOM_NAVIGATION}}
+          </ul>
+        </div>
+
+        <div class="large-6 pull-6 columns">
+          <p class="cl-effect-2">
+            <a href="about"><span data-hover="О Сайте">О Сайте</span></a>
+            <a href="ads"><span data-hover="Реклама">Реклама</span></a>
+            <a href="mailto:info@lechtivo.com"><span data-hover="Info@LeChtivo.com">Info@LeChtivo.com</span></a>
+            <br>
+            <small>Использование материалов портала <b>запрещено без письменного одобрения</b> администрации сайта.
+            Сайт может содержать информацию, не предназначенную для лиц младше <b>21</b>-ти года.
+            <br>
+            2014 © Copyright <a href="http://lechtivo.com">Le Chtivo</a> | Создано в недрах <a href="http://ColorEMotions.net">Color-E-Motions</a>
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+
+    <!-- JS -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>$(document).foundation();</script>
+    <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23736697 = new Ya.Metrika({id:23736697, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23736697" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-47466485-1', 'lechtivo.com');
+      ga('send', 'pageview');
+    </script>
+    <!-- End of Google Analytics -->
+
+  </body>
+</html>

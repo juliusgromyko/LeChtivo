@@ -1,0 +1,300 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <base href='../'>
+    <meta http-equiv="content-type" content="text/html; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Le Chtivo – это блог о еде и путешествиях, продуктивности, предпринимательстве, мировоззрении, интернете и окружающем нас мире.">
+    <meta name="keywords" content="еда, путешествия, предпринимательство, свое дело, продуктивность, советы, lifehack, книги, чтиво, дизайн">
+    <link rel="canonical" href="http://lechtivo.com">
+    <title>Человек цифровой –  Le Chtivo | Книги, Места, Еда, Дизайн, Свое Дело, Интересности</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    
+   <!-- Header and Nav -->
+ 
+  <div class="row">
+    <br>
+    <div class="large-12 large-centered columns text-center">
+      <h1><a href="http://lechtivo.com"><img src="img/logo3.png" alt="Le Chtivo"></a></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 large-centered columns text-center">
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar"><a href="#"><i class="icon-menu" alt="Menu"></i></a></li>
+          </ul>
+
+          <section class="top-bar-section center-block">
+            <ul>
+              <li class='cl-effect-2'><a href='tag\readings'><span Data-hover='Чтиво'>Чтиво</span></a></li><li class='cl-effect-2'><a href='tag\places'><span Data-hover='Места'>Места</span></a></li><li class='cl-effect-2'><a href='tag\food'><span Data-hover='Еда'>Еда</span></a></li><li class='cl-effect-2'><a href='tag\design'><span Data-hover='Дизайн'>Дизайн</span></a></li><li class='cl-effect-2'><a href='tag\entrepreneurship'><span Data-hover='Свое дело'>Свое дело</span></a></li><li class='cl-effect-2'><a href='tag\others'><span Data-hover='Вне рубрики'>Вне рубрики</span></a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- End Header and Nav -->
+ 
+
+  <!-- Content -->
+  <br><br>
+  
+<!-- Article -->
+<br>
+<div class="row">
+  <article>
+    <div class="large-2 columns push-to-front show-for-medium-up">
+      <a href="tag/person" title="Просмотреть все статьи по теме Люди"><img src="img/topics/person.png" class="round-with-border pull-down-30" alt="Люди"></a>
+    </div>
+
+    <div class="large-9 columns">
+      <!-- Article Title -->
+      <h3>Человек цифровой
+        <!-- Share block -->
+        <div class="yashare-auto-init right" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="http://lechtivo.com/articles/DIGITAL_HUMAN" data-yashareTitle="Человек цифровой" data-yashareDescription=" <p><b>Осторожно!</b> бездушная инженерия и моральный радикализм</p> <p>Испокон веков люди стремились стать сильнее, умнее и выносливее. Целые народы поклонялись богам, поедали тела своих врагов с целью перенять их силу, искали зелья вечной молодости. Тысячи лет прогрессивное человечество создавало технологии способные облегчить нам жизнь в этих стремлениях: мы придумали математику и логику, чтобы было проще рассуждать о сложных вещах; мы создали сотни хитроумных механизмов и машин, чтобы лишить себя тяжелой физической работы; наша медицина смогла побороть естественный отбор." data-yashareImage="http://lechtivo.com/img/articles/digital_human_sq.jpg"></div>
+      </h3>
+
+      <!-- Article info line -->
+      <small class="article-info-line">
+        <a href="#" class="author" title="Автор: Юлий Громыко">Юлий Громыко</a>
+        •
+        <a href="#" class="calendar" title="Дата публикации: 27.01.2014 ">27.01.2014</a>
+        <!--
+        •
+        <a href="" class="views" title="Просмотров страницы: <%= Article_PageViews %>"><%= Article_PageViews %></a>
+        -->
+      </small>
+
+    </div>
+
+    <!-- Article Main Image -->
+    <div class="large-12 columns">
+      <img src="img/articles/digital_human.jpg">
+      <br>
+      <br>
+      
+    <!-- Article body text -->
+     <p><b>Осторожно!</b> бездушная инженерия и моральный радикализм</p> <p>Испокон веков люди стремились стать сильнее, умнее и выносливее. Целые народы поклонялись богам, поедали тела своих врагов с целью перенять их силу, искали зелья вечной молодости. Тысячи лет прогрессивное человечество создавало технологии способные облегчить нам жизнь в этих стремлениях: мы придумали математику и логику, чтобы было проще рассуждать о сложных вещах; мы создали сотни хитроумных механизмов и машин, чтобы лишить себя тяжелой физической работы; наша медицина смогла побороть естественный отбор. Так что же мешает нам перейти на следующую ступень? </p> <img src="img/articles/skylight.jpg"><br><br><p>Религии промывают нам мозги, рассказывая о бессмертии некой субстанции "душа". С точки зрения сухой науки и философии - мы знаем, что есть разум, который умирает вместе с телом. Сделайте наше тело бессмертным и Ваш разум (или зовите это душей) станет бессмертным. Проводя аналогию с компьютером: тело - это hardware, а наш разум, навыки, знания и воспоминания - это базовая прошивка и software. Кто и когда устанавливает прошивку и ПО в наш организм? Миллионы лет эволюции и самый совершенный носитель информации - ДНК. Что формирует нашу личность и индивидуальность? Наш разум и память. Тело - это лишь носитель. </p> <img src="img/articles/minicooper.jpg"><br><br><p>Говоря об индивидуальности: всем известен британский образец уникальности и стиля - автомобиль Mini Cooper. Как и многие другие, компания отказалась от мануфактуры в пользу конвейера много лет назад. Тем не менее, покупатель в праве выбрать цвет и узор кузова, крыши, обивку салона и комплектацию благодаря автоматизации производства. Это создаёт тысячи уникальных комбинаций автомобиля, хоть по сути - отличия косметические. Покупатель в итоге получает всё ту же ходовую, двигатель и кузов. Давайте теперь зададимся вопросом: А что же нам необходимо, для сборки такого же автомобиля? Нам не нужно сканировать каждый его атом и пересылать информацию о нём. Нам ведь не нужна избыточная информация о искривлении ходового вала и царапине на бампере, не так ли? Все что нам нужно - это запчасти, инструкция по сборке и краска. Инструкция по сборке сведётся к списку компонентов и их относительной позиции в пространстве, окраска автомобиля - к набору двухмерных рисунков с текстурой и картой высот. Согласитесь, что это уже очень небольшой объём данных, который отлично поддается сжатию. </p> <img src="img/articles/robot.jpg"><br><br> <p>Любознательный читатель уже догадался, что вместо автомобиля можно собирать тело человека, лишенное врожденных болезней, состоящее из универсальных органов протестированных сотнями инженерами службы контроля качества. Таки тяжелые травмы, как потеря конечностей или атрофия органов будут лечиться пересадкой органа болванки или сборкой нового тела. Часть органов уже успешно заменяют синтетические, другую часть уже умеют печатать на медицинских 3D принтерах. Для получения инструкции по сборке будет достаточно редактора внешности человека подобного Poser или тому, что предлагает игра Sims. Для создания же копии по вашему подобию - хватит набора фотографий либо 3D сканер. </p> <img src="img/articles/gadgets.jpg"><br><br><p>Что ж, с телом разобрались, а как же наши знания и воспоминания? Давайте представим, что подобно герою фантастического фильма "Джонни Мнемоник", у нас в голове есть флешка, на которую мы можем записать и прочитать с неё всё, что пожелаем. Тогда многие годы обучения в школе и университете можно сразу заменить скачиванием свежей базы знаний. Воспоминания можно моментально сохранять в соц. сети, удалять плохие моменты жизни и ретушировать яркие моменты. Что же нужно для воплощения в реальность столь дерзкой фантазии? Нужна электронная замена гиппокампа. Профессор Теодор Бергер уже создал такую замену для крыс в 2011 году. Когда его получит человек - вопрос времени. </p><img src="img/articles/guitar.jpg"><br><br><p>Однако, не вся память человека храниться в головном мозге. Есть понятие приобретённых рефлексов или навыков. Тут важно понимать, что любой навык состоит из двух действий - осознанных  и не осознанных. Когда пианист играет мелодию, он осознанно командует "указательный палец на ноту ля 3 октавы, нажать коротко и мягко". Однако исполнение этой команды - задача нашего подсознания. Подсознание отслеживает мышечную релаксацию рук, подаёт импульсы стимулирующие мышцы для получения необходимого результата. В простейшей модели, мы можем сохранить осознанные действия во внешней памяти, как и все остальные знания. Подсознательные действия - можно хранить в виде прошивки для некоего микроконтроллера подключенного к нервной системе человека и выводами электродов к мышца. Сейчас интеграция подобного микроконтроллера в тело крайне сложна, хоть и возможна. Однако, мы обсуждаем сборку нового тела для человека, а значит, микроконтроллер может быть установлен уже на этапе сборки. </p> <img src="img/articles/glowhead.jpg"><br><br><p> Мы подошли к самой сложной части информационной телепортации или клонирования человека - воссоздание центра принятия решений. Для того, чтобы воссоздать центр принятия решений - потребуется составить "карту" мозга (высокоточная 3D томография) по которой его затем воссоздать (3D печать, клонирование тканей и выращивание мозга-болванки). В данном случае, нас интересуют лиш два отдела мозга, ответственные за оценку и ревизию принятых решений. Эти задачи выполняют нейроны префронтальной коры – орбифронтальной зоны и передней поясной коры мозга. Точность считывания и воссоздания этих участков будет играть прямую роль в цифровой телепортации человека.</p> <img src="img/articles/peoples.jpg"><br><br><p>Интеграция памяти с цифровым облаком и воспроизведение личности человека на каждой новой копии приведёт к тому, что часть людей пожелают создать копии себя и жить в гармонии с собой. Толпы "Я" поддерживающих Ваши взгляды на жизнь составят Вам идеальную компанию, у Вас будут одинаковые знания и воспоминания хранящейся в облаке. По сути, мы придём к тому, что каждое такое тело станет независимым процессором кластера с предустановленным програмным обеспечением "Я" и разделяемой общей памятью на облачных сервисах. Плохо это или хорошо - сложно судить, но в одном можно быть уверенным - несколько десятков Эйнштейнов смогли бы сделать гораздо больше, чем один. </p> <img src="img/articles/anonymous.jpg"><br><br><p>Хранение личности и памяти в облаке непременно приведёт и к "хакингу" людей, тотальной цензуре и более частым попыткам влезть в Вашу жизнь 3-х лиц. Политические и религиозные силы будут рады возможности залить прошивку "РАБ" на Ваше тело. А противники прогресса будут вопить о неэтичности населения мира своими клонами и бездушность технологий.  </p><img src="img/articles/parts.jpg"><br><br><p>На этом моя статья подходит к концу. Надеюсь, что мне удалось дать Вам пищу для ума. Теперь Вы знаете, что до конца этого века наша жизнь кардинально изменится и каков возможный сценарий будущего. </p><img src="img/articles/peoples_with_papers.jpg"><br><br><p> <b>Список литературы и рекомендуемых ресурсов: </b><ol><li><a href="http://hms.harvard.edu/news/writing-book-dna-8-16-12">Ученые Гарвардского университета записали книгу в ДНК  </a></li><li><a href="http://www.membrana.ru/particle/16318">Учёные поселили в мозгу крыс электронную память  </a></li><li><a href="https://www.youtube.com/watch?v=Htv9O40B7Io">Человек искусственный </a></li><li><a href="http://postnauka.ru">postnauka.ru </a></li><li><a href="http://elementy.ru">elementy.ru </a></li><li><a href="http://naukatv.ru">naukatv.ru </a></li><li><a href="http://transgumanist.net">transgumanist.net </a></li><li><a href="http://hplusmagazine.com">hplusmagazine.com</a></li><li><a href="http://transhuman.ru">transhuman.ru</a></li></ol></p>
+
+    </div>
+  </article>
+
+  <!-- TAGS -->
+  <div class="large-12 columns">
+    <dl class="sub-nav">
+      <dt>Метки:</dt>
+      <dd class="active"><a href="tag/person">Люди</a></dd>
+      <dd><a href='tag/ideas'>Идеи</a></dd><dd><a href='tag/facts'>Факты</a></dd><dd><a href='tag/social'>Общество</a></dd>
+    </dl>
+
+    <!-- Share block -->
+    Поделиться с друзьями:
+    <div class="yashare-auto-init" style="display: inline-block;" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="http://lechtivo.com/articles/DIGITAL_HUMAN" data-yashareTitle="Человек цифровой" data-yashareDescription=" <p><b>Осторожно!</b> бездушная инженерия и моральный радикализм</p> <p>Испокон веков люди стремились стать сильнее, умнее и выносливее. Целые народы поклонялись богам, поедали тела своих врагов с целью перенять их силу, искали зелья вечной молодости. Тысячи лет прогрессивное человечество создавало технологии способные облегчить нам жизнь в этих стремлениях: мы придумали математику и логику, чтобы было проще рассуждать о сложных вещах; мы создали сотни хитроумных механизмов и машин, чтобы лишить себя тяжелой физической работы; наша медицина смогла побороть естественный отбор." data-yashareImage="http://lechtivo.com/img/articles/digital_human_sq.jpg"></div>
+    <br>
+  </div>
+
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+</div>
+<!-- Article End -->
+
+
+<!-- Sub Post Bar -->
+<div class="row">
+
+  <!-- Similar Articles -->
+  <!--
+  <div class="large-12 columns">
+  <h5 class="text-center">–– ЧИТАЙТЕ ТАКЖЕ ––</h5>
+  <br>
+  <br>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_1}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_1}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_1}}
+      <br>
+    </a>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_2}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_2}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_2}}
+      <br>
+    </a>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_3}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_3}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_3}}
+      <br>
+    </a>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_4}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_4}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_4}}
+      <br>
+    </a>
+  </div>
+    
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+  -->
+  
+</div>
+
+<!-- Comments -->
+<div class="row">
+  <div class="large-12 columns">
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'lechtivo'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+
+<!-- Article SubFooter -->
+<div class="row">
+  
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+  <!-- Subsribe Form -->
+  <div class="large-4 columns">
+    <h5 class="text-center">–– ПОДПИСАТЬСЯ ––</h5>
+    <br>
+    <p>Подпишись на наш дайджест и получай лучшие наши статьи себе на email</p>
+    <form action="http://lechtivo.us3.list-manage.com/subscribe/post?u=cdd10a9b7ae4acfa0e3c29cd9&amp;id=f0a15e5367" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-abide>
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="email" name="EMAIL" placeholder="Адресс электронной почты" required/>
+          <small class="error">Указан неверный адрес электронной почты</small>
+        </div>
+        <div class="small-12 columns">
+          <input type="submit" name="subscribe" value="ПОДПИСАТЬСЯ" class="button small small-12">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- PROMO BLOCK 1 -->
+  <!--
+  <div class="large-4 columns">
+    <div class="image-container proportion-1x1">
+        <a href="{{PROMO_SQUARE_URL_1}}" title="{{PROMO_SQUARE_TITLE_1}}">
+          <img src="{{PROMO_SQUARE_IMAGE_1}}" class="center-block">
+        </a>
+    </div>
+  </div>
+  -->
+
+  <!-- PROMO BLOCK 2 -->
+  <!--
+  <div class="large-4 columns">
+    <div class="image-container proportion-1x1">
+        <a href="{{PROMO_SQUARE_URL_2}}" title="{{PROMO_SQUARE_TITLE_2}}">
+          <img src="{{PROMO_SQUARE_IMAGE_2}}" class="center-block">
+        </a>
+    </div>
+  </div>
+  -->
+
+</div>
+    
+
+ 
+  <!-- Footer -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <br>
+      <hr />
+      <br>
+      <div class="row">
+
+        <div class="large-6 push-6 columns">
+          <ul class="inline-list right">
+            <li class='cl-effect-2'><a href='tag\readings'><span Data-hover='Чтиво'>Чтиво</span></a></li><li class='cl-effect-2'><a href='tag\places'><span Data-hover='Места'>Места</span></a></li><li class='cl-effect-2'><a href='tag\food'><span Data-hover='Еда'>Еда</span></a></li><li class='cl-effect-2'><a href='tag\design'><span Data-hover='Дизайн'>Дизайн</span></a></li><li class='cl-effect-2'><a href='tag\entrepreneurship'><span Data-hover='Свое дело'>Свое дело</span></a></li><li class='cl-effect-2'><a href='tag\others'><span Data-hover='Вне рубрики'>Вне рубрики</span></a></li>
+          </ul>
+        </div>
+
+        <div class="large-6 pull-6 columns">
+          <p class="cl-effect-2">
+            <a href="about"><span data-hover="О Сайте">О Сайте</span></a>
+            <a href="ads"><span data-hover="Реклама">Реклама</span></a>
+            <a href="mailto:info@lechtivo.com"><span data-hover="Info@LeChtivo.com">Info@LeChtivo.com</span></a>
+            <br>
+            <small>Использование материалов портала <b>запрещено без письменного одобрения</b> администрации сайта.
+            Сайт может содержать информацию, не предназначенную для лиц младше <b>21</b>-ти года.
+            <br>
+            2014 © Copyright <a href="http://lechtivo.com">Le Chtivo</a> | Создано в недрах <a href="http://ColorEMotions.net">Color-E-Motions</a>
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+
+    <!-- JS -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>$(document).foundation();</script>
+    <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23736697 = new Ya.Metrika({id:23736697, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23736697" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-47466485-1', 'lechtivo.com');
+      ga('send', 'pageview');
+    </script>
+    <!-- End of Google Analytics -->
+
+  </body>
+</html>

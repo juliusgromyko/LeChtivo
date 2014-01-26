@@ -1,0 +1,38 @@
+<!-- Article Start -->
+
+      <article>
+        <div class="large-3 columns push-to-front show-for-medium-up">
+          <a href="{{ARTICLE_TAG_URL}}" title="Просмотреть все статьи по теме {{ARTICLE_TAG_NAME}}"><img src="{{ARTICLE_TAG_ICON}}" class="round-with-border pull-down-30" alt="{{ARTICLE_TAG_NAME}}"></a>
+        </div>
+
+        <div class="large-9 columns">
+          <h3><a href="{{ARTICLE_URL}}" class="article-title">{{ARTICLE_TITLE}}</a>
+            <!-- Share block -->
+            <div class="yashare-auto-init right" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="http://lechtivo.com/{{ARTICLE_URL}}" data-yashareTitle="{{ARTICLE_TITLE}}" data-yashareDescription="{{ARTICLE_SHORT_BODY}}" data-yashareImage="http://lechtivo.com/{{ARTICLE_COVER_PHOTO_SQUARE}}"></div>
+          </h3>
+        </div>
+
+        <div class="large-12 columns">
+          <div class="image-container proportion-2x1">
+            <a href="{{ARTICLE_URL}}" title="{{ARTICLE_TITLE}}"><img src="{{ARTICLE_COVER_PHOTO}}"></a>
+          </div>
+          <small class="article-info-line sub-article-info-line">
+            <a href="{{ARTICLE_AUTHOR_URL}}" class="author" title="Автор: {{ARTICLE_AUTHOR}}">{{ARTICLE_AUTHOR}}</a>
+            •
+            <a href="{{ARTICLE_DATE_URL}}" class="calendar" title="Дата публикации: {{ARTICLE_DATE}}">{{ARTICLE_DATE}}</a>
+            •
+            <a href="{{ARTICLE_URL}}#disqus_thread" class="comments" title="Просмотреть комментарии"></a>
+            <!--
+            •
+            <a href="" class="views" title="Просмотров страницы: <%= Article_PageViews %>"><%= Article_PageViews %></a>
+            -->
+          </small>
+          <br>
+          <p>
+            {{ARTICLE_SHORT_BODY}} <a href="{{ARTICLE_URL}}">Читать дальше →</a>
+          </p>
+        </div>
+      </article>
+
+      <hr>
+      <!-- Article End -->

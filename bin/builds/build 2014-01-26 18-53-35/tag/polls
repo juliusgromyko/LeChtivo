@@ -1,0 +1,235 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <base href='../'>
+    <meta http-equiv="content-type" content="text/html; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Le Chtivo – это блог о еде и путешествиях, продуктивности, предпринимательстве, мировоззрении, интернете и окружающем нас мире.">
+    <meta name="keywords" content="еда, путешествия, предпринимательство, свое дело, продуктивность, советы, lifehack, книги, чтиво, дизайн">
+    <link rel="canonical" href="http://lechtivo.com">
+    <title>Публикации по теме Опрос Le Chtivo | Книги, Места, Еда, Дизайн, Свое Дело, Интересности</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    
+   <!-- Header and Nav -->
+ 
+  <div class="row">
+    <br>
+    <div class="large-12 large-centered columns text-center">
+      <h1><a href="http://lechtivo.com"><img src="img/logo3.png" alt="Le Chtivo"></a></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 large-centered columns text-center">
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar"><a href="#"><i class="icon-menu" alt="Menu"></i></a></li>
+          </ul>
+
+          <section class="top-bar-section center-block">
+            <ul>
+              <li class='cl-effect-2'><a href='tag\readings'><span Data-hover='Чтиво'>Чтиво</span></a></li><li class='cl-effect-2'><a href='tag\places'><span Data-hover='Места'>Места</span></a></li><li class='cl-effect-2'><a href='tag\food'><span Data-hover='Еда'>Еда</span></a></li><li class='cl-effect-2'><a href='tag\design'><span Data-hover='Дизайн'>Дизайн</span></a></li><li class='cl-effect-2'><a href='tag\entrepreneurship'><span Data-hover='Свое дело'>Свое дело</span></a></li><li class='cl-effect-2'><a href='tag\others'><span Data-hover='Вне рубрики'>Вне рубрики</span></a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- End Header and Nav -->
+ 
+
+  <!-- Content -->
+  <br><br>
+  
+<!-- Main Layer -->
+<div class="row">
+  <div class="large-8 columns">
+
+
+    <!-- Articles index section-->
+    <div class="row">
+
+      <h5 class='text-center'>Пока публикаций по этой теме нету</h5><br>
+
+      <!-- PAGINATOR -->
+      <div class="row">
+        <div class="small-12 columns">
+          <div class="pagination-centered">
+            <ul class="pagination">
+              
+              <li class='arrow unavailable'><a href=''>&laquo;</a></li><li class='unavailable'><a href=''>&hellip;</a></li><li class='arrow unavailable'><a href=''>&raquo;</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Aside panel -->
+  <div class="large-4 columns">
+
+
+    <!-- SUBSCRIBE FORM -->
+    <br>
+    <h5 class="text-center">–– ДАЙЖДЕСТ ––</h5>
+    <br>
+    <p>Подпишись на наш дайджест и получай лучшие наши статьи себе на email</p>
+    <form action="http://lechtivo.us3.list-manage.com/subscribe/post?u=cdd10a9b7ae4acfa0e3c29cd9&amp;id=f0a15e5367" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-abide>
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="email" name="EMAIL" placeholder="Адресс электронной почты" required/>
+          <small class="error">Указан неверный адрес электронной почты</small>
+        </div>
+        <div class="small-12 columns">
+          <input type="submit" name="subscribe" value="ПОДПИСАТЬСЯ" class="button small small-12">
+        </div>
+      </div>
+    </form>
+    <hr>
+
+    <!-- PROMO BLOCK -->
+    <!--
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
+    <br>
+    -->
+
+    <!-- POPULAR ARTICLES -->
+    <!--
+    <br>
+    <h5 class="text-center">–– ЛУЧШЕЕ ––</h5>
+    <br>
+    <% 5.times do %> 
+    <a href="<%= Article_URL %>" class="article-title"><%= Article_Title %>
+      <small> – <%= Article_Author%>, <%= Article_Date %></small>
+    </a>
+    <hr>
+    <% end %>
+    <br>
+    -->
+
+    <!-- PROMO BLOCK -->
+    <!--
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
+    <br>
+    -->
+
+    <!-- POPULAR TOPICS -->
+    <br>
+    <h5 class="text-center">–– ПОПУЛЯРНЫЕ ТЕМЫ ––</h5>
+    <br>
+    <p class="text-center">
+      <a href='tag/readings'>Чтиво</a> – <a href='tag/places'>Места</a> – <a href='tag/food'>Еда</a> – <a href='tag/design'>Дизайн</a> – <a href='tag/entrepreneurship'>Свое дело</a> – <a href='tag/others'>Вне рубрики</a> – <a href='tag/money'>Деньги</a> – <a href='tag/productivity'>Продуктивность</a> – <a href='tag/news'>Новости</a> – <a href='tag/mustsee'>Надо видеть</a> – <a href='tag/events'>События</a> – <a href='tag/travel'>Путешествия</a> – <a href='tag/web'>Интернет</a> – <a href='tag/things'>Штуки</a> – <a href='tag/ideas'>Идеи</a> – <a href='tag/polls'>Опрос</a> – <a href='tag/links'>Ссылка</a> – <a href='tag/sucessstories'>Истории успеха</a> – <a href='tag/lifehacks'>Лайфхак</a> – <a href='tag/apps'>Приложения</a> – <a href='tag/facts'>Факты</a> – <a href='tag/social'>Общество</a> – <a href='tag/learn'>Обучение</a> – <a href='tag/relax'>Отдых</a> – <a href='tag/gtd'>GTD</a> – <a href='tag/person'>Люди</a> – <a href='tag/tryyourself'>Проверенно на себе</a> – <a href='tag/viral'>Вирусное</a> – <a href='tag/sended'>Присланное</a>
+    </p>
+    <hr>
+
+     <!-- SEARCH FORM -->
+    <br>
+    <div class="row">
+      <div class="large-12 columns">
+        <form id="gsearch" style="padding-top:5px;" action="http://www.google.com/search" method="get" onsubmit="this.q.value='site:lechtivo.com '+this.rawq.value">
+          <input type="hidden" name="q" value="site:lechtivo.com nm,m">
+          <div class="row collapse">
+            <div class="small-10 columns">
+              <input class="small-10" name="rawq" type="text" title="Поиск по сайту" value="">
+            </div>
+            <div class="small-2 columns">
+              <input type="submit" name="submit" value="Поиск" class="button postfix">
+            </div>
+          </div>
+        </form>
+        <hr>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Discus comments counter script -->
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'lechtivo'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+    
+
+ 
+  <!-- Footer -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <br>
+      <hr />
+      <br>
+      <div class="row">
+
+        <div class="large-6 push-6 columns">
+          <ul class="inline-list right">
+            <li class='cl-effect-2'><a href='tag\readings'><span Data-hover='Чтиво'>Чтиво</span></a></li><li class='cl-effect-2'><a href='tag\places'><span Data-hover='Места'>Места</span></a></li><li class='cl-effect-2'><a href='tag\food'><span Data-hover='Еда'>Еда</span></a></li><li class='cl-effect-2'><a href='tag\design'><span Data-hover='Дизайн'>Дизайн</span></a></li><li class='cl-effect-2'><a href='tag\entrepreneurship'><span Data-hover='Свое дело'>Свое дело</span></a></li><li class='cl-effect-2'><a href='tag\others'><span Data-hover='Вне рубрики'>Вне рубрики</span></a></li>
+          </ul>
+        </div>
+
+        <div class="large-6 pull-6 columns">
+          <p class="cl-effect-2">
+            <a href="about"><span data-hover="О Сайте">О Сайте</span></a>
+            <a href="ads"><span data-hover="Реклама">Реклама</span></a>
+            <a href="mailto:info@lechtivo.com"><span data-hover="Info@LeChtivo.com">Info@LeChtivo.com</span></a>
+            <br>
+            <small>Использование материалов портала <b>запрещено без письменного одобрения</b> администрации сайта.
+            Сайт может содержать информацию, не предназначенную для лиц младше <b>21</b>-ти года.
+            <br>
+            2014 © Copyright <a href="http://lechtivo.com">Le Chtivo</a> | Создано в недрах <a href="http://ColorEMotions.net">Color-E-Motions</a>
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+
+    <!-- JS -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>$(document).foundation();</script>
+    <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23736697 = new Ya.Metrika({id:23736697, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23736697" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-47466485-1', 'lechtivo.com');
+      ga('send', 'pageview');
+    </script>
+    <!-- End of Google Analytics -->
+
+  </body>
+</html>

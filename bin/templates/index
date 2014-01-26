@@ -1,0 +1,128 @@
+<!-- Main Layer -->
+<div class="row">
+  <div class="large-8 columns">
+
+
+    <!-- Articles index section-->
+    <div class="row">
+
+      {{ARTICLE_INDEX}}
+
+      <!-- PAGINATOR -->
+      <div class="row">
+        <div class="small-12 columns">
+          <div class="pagination-centered">
+            <ul class="pagination">
+              
+              {{PAGINATOR}}
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Aside panel -->
+  <div class="large-4 columns">
+
+
+    <!-- SUBSCRIBE FORM -->
+    <br>
+    <h5 class="text-center">–– ДАЙЖДЕСТ ––</h5>
+    <br>
+    <p>Подпишись на наш дайджест и получай лучшие наши статьи себе на email</p>
+    <form action="http://lechtivo.us3.list-manage.com/subscribe/post?u=cdd10a9b7ae4acfa0e3c29cd9&amp;id=f0a15e5367" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-abide>
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="email" name="EMAIL" placeholder="Адресс электронной почты" required/>
+          <small class="error">Указан неверный адрес электронной почты</small>
+        </div>
+        <div class="small-12 columns">
+          <input type="submit" name="subscribe" value="ПОДПИСАТЬСЯ" class="button small small-12">
+        </div>
+      </div>
+    </form>
+    <hr>
+
+    <!-- PROMO BLOCK -->
+    <!--
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
+    <br>
+    -->
+
+    <!-- POPULAR ARTICLES -->
+    <!--
+    <br>
+    <h5 class="text-center">–– ЛУЧШЕЕ ––</h5>
+    <br>
+    <% 5.times do %> 
+    <a href="<%= Article_URL %>" class="article-title"><%= Article_Title %>
+      <small> – <%= Article_Author%>, <%= Article_Date %></small>
+    </a>
+    <hr>
+    <% end %>
+    <br>
+    -->
+
+    <!-- PROMO BLOCK -->
+    <!--
+    <div class="image-container proportion-1x1">
+        <a href="promo" title="promo">
+          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
+        </a>
+    </div>
+    <br>
+    -->
+
+    <!-- POPULAR TOPICS -->
+    <br>
+    <h5 class="text-center">–– ПОПУЛЯРНЫЕ ТЕМЫ ––</h5>
+    <br>
+    <p class="text-center">
+      {{POPULAR_TOPICS}}
+    </p>
+    <hr>
+
+     <!-- SEARCH FORM -->
+    <br>
+    <div class="row">
+      <div class="large-12 columns">
+        <form id="gsearch" style="padding-top:5px;" action="http://www.google.com/search" method="get" onsubmit="this.q.value='site:lechtivo.com '+this.rawq.value">
+          <input type="hidden" name="q" value="site:lechtivo.com nm,m">
+          <div class="row collapse">
+            <div class="small-10 columns">
+              <input class="small-10" name="rawq" type="text" title="Поиск по сайту" value="">
+            </div>
+            <div class="small-2 columns">
+              <input type="submit" name="submit" value="Поиск" class="button postfix">
+            </div>
+          </div>
+        </form>
+        <hr>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Discus comments counter script -->
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'lechtivo'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+    

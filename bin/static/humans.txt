@@ -1,0 +1,7 @@
+/* Le Chtivo.com */
+/* humanstxt.org */
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, Orbit, Reveal, Foundation
+  Software: Sublime, Git
