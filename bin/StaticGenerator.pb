@@ -96,7 +96,7 @@ EndProcedure
 Procedure GenerateNavBasedOnTopics()
   ForEach TAGsList()
     If TAGsList()\isMain=#True
-      topicURL.s=URLPath_TAGs_Index+"\"+TAGsList()\URL
+      topicURL.s=URLPath_TAGs_Index+"/"+TAGsList()\URL
       Template_TopNav=Template_TopNav+"<li class='cl-effect-2'><a href='"+topicURL+"'><span Data-hover='"+TAGsList()\Name+"'>"+TAGsList()\Name+"</span></a></li>"
       Template_BottomNav=Template_BottomNav+"<li class='cl-effect-2'><a href='"+topicURL+"'><span Data-hover='"+TAGsList()\Name+"'>"+TAGsList()\Name+"</span></a></li>"
     EndIf
@@ -477,9 +477,9 @@ EndProcedure
 
 CreateNewBuild()
 ; IDE Options = PureBasic 5.20 beta 19 LTS (MacOS X - x86)
-; CursorPosition = 283
-; FirstLine = 32
-; Folding = AAAK+
+; CursorPosition = 98
+; FirstLine = 37
+; Folding = IBAA+
 ; EnableUnicode
 ; EnableThread
 ; EnableXP

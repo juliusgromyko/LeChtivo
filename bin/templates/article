@@ -1,3 +1,7 @@
+<meta property="og:url"             content="http://lechtivo.com/{{ARTICLE_URL}}" /> 
+<meta property="og:title"           content="{{ARTICLE_TITLE}}" /> 
+<meta property="og:image"           content="http://lechtivo.com/{{ARTICLE_COVER_PHOTO_SQUARE}}" /> 
+
 <!-- Article -->
 <br>
 <div class="row">
