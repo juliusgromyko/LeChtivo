@@ -36,7 +36,7 @@ Global Storage_TopicsList.s = "topics"
 Global URLPage_SquareImages_Postfix.s = "_sq"
 Global SquareImages_Size.i = 300
 Global Article_ShortBodyText_Size.i = 500
-Global Articles_Per_Index_Page.i=5
+Global Articles_Per_Index_Page.i=15
 
 ;{ TEMPLATE CODES
 ; {{TITLE}}
@@ -139,6 +139,7 @@ Structure Article
   Author.s
   AuthorURL.s
   Date.s
+  Datei.i
   CoverImage.s
   MainTopic.s
   SubTopics.s
@@ -175,6 +176,7 @@ Procedure LoadArticle(file.s)
             Articles()\AuthorURL=authorURL
           Case "date"
             Articles()\Date=subTag
+            Articles()\Datei=ParseDate("%dd.%mm.%yyyy",subTag)
           Case "cover_image"
             Articles()\CoverImage=URLPath_Article_Photos+"/"+subTag
           Case "main_topic"
@@ -200,7 +202,7 @@ Procedure LoadAllArticles()
     FinishDirectory(d)
   EndIf
   
-  SortStructuredList(Articles(),#PB_Sort_Descending,OffsetOf(Article\Date),#PB_String)
+  SortStructuredList(Articles(),#PB_Sort_Descending,OffsetOf(Article\Datei),#PB_Integer)
 EndProcedure
 
 Procedure.s GenerateSubTagLine(*Article.Article)
@@ -477,9 +479,9 @@ EndProcedure
 
 CreateNewBuild()
 ; IDE Options = PureBasic 5.20 beta 19 LTS (MacOS X - x86)
-; CursorPosition = 98
-; FirstLine = 37
-; Folding = IBAA+
+; CursorPosition = 204
+; FirstLine = 42
+; Folding = ARBA+
 ; EnableUnicode
 ; EnableThread
 ; EnableXP

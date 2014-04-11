@@ -1,0 +1,317 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <base href='../'>
+    <meta http-equiv="content-type" content="text/html; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Le Chtivo – это блог о еде и путешествиях, продуктивности, предпринимательстве, мировоззрении, интернете и окружающем нас мире.">
+    <meta name="keywords" content="еда, путешествия, предпринимательство, свое дело, продуктивность, советы, lifehack, книги, чтиво, дизайн">
+    <link rel="canonical" href="http://lechtivo.com">
+    <title>Немного о Мексике, мескале и текиле –  Le Chtivo | Книги, Места, Еда, Дизайн, Свое Дело, Интересности</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    
+   <!-- Header and Nav -->
+ 
+  <div class="row">
+    <br>
+    <div class="large-12 large-centered columns text-center">
+      <h1><a href="http://lechtivo.com"><img src="img/logo3.png" alt="Le Chtivo"></a></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 large-centered columns text-center">
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar"><a href="#"><i class="icon-menu" alt="Menu"></i></a></li>
+          </ul>
+
+          <section class="top-bar-section center-block">
+            <ul>
+              <li class='cl-effect-2'><a href='tag/readings'><span Data-hover='Чтиво'>Чтиво</span></a></li><li class='cl-effect-2'><a href='tag/places'><span Data-hover='Места'>Места</span></a></li><li class='cl-effect-2'><a href='tag/food'><span Data-hover='Еда'>Еда</span></a></li><li class='cl-effect-2'><a href='tag/design'><span Data-hover='Дизайн'>Дизайн</span></a></li><li class='cl-effect-2'><a href='tag/entrepreneurship'><span Data-hover='Свое дело'>Свое дело</span></a></li><li class='cl-effect-2'><a href='tag/others'><span Data-hover='Вне рубрики'>Вне рубрики</span></a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- End Header and Nav -->
+ 
+
+  <!-- Content -->
+  <br><br>
+  
+<meta property="og:url"             content="http://lechtivo.com/articles/MEXICO" /> 
+<meta property="og:title"           content="Немного о Мексике, мескале и текиле" /> 
+<meta property="og:image"           content="http://lechtivo.com/img/articles/mexico_1_sq.jpg" /> 
+
+<!-- Article -->
+<br>
+<div class="row">
+  <article>
+    <div class="large-2 columns push-to-front show-for-medium-up">
+      <a href="tag/places" title="Просмотреть все статьи по теме Места"><img src="img/topics/places.png" class="round-with-border pull-down-30" alt="Места"></a>
+    </div>
+
+    <div class="large-9 columns">
+      <!-- Article Title -->
+      <h3>Немного о Мексике, мескале и текиле
+        <!-- Share block -->
+        <div class="yashare-auto-init right" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="http://lechtivo.com/articles/MEXICO" data-yashareTitle="Немного о Мексике, мескале и текиле" data-yashareDescription="<br><p>Мексика – страна текилы. Побывав на одном из заводов по изготовлению этого алкогольного напитка, можно больше узнать о процессе производства, разновидностях, продегустировать готовую продукцию. </p><p>Основой для изготовления текилы служит голубая агава – суккулент высотой примерно в человеческий рост. Произрастает она и в других странах, но только в Мексике текила будет считаться оригинальной." data-yashareImage="http://lechtivo.com/img/articles/mexico_1_sq.jpg"></div>
+      </h3>
+
+      <!-- Article info line -->
+      <small class="article-info-line">
+        <a href="#" class="author" title="Автор: Pliskie">Pliskie</a>
+        •
+        <a href="#" class="calendar" title="Дата публикации: 15.03.2014 ">15.03.2014</a>
+        <!--
+        •
+        <a href="" class="views" title="Просмотров страницы: <%= Article_PageViews %>"><%= Article_PageViews %></a>
+        -->
+      </small>
+
+    </div>
+
+    <!-- Article Main Image -->
+    <div class="large-12 columns">
+      <img src="img/articles/mexico_1.jpg">
+      <br>
+      <br>
+      
+    <!-- Article body text -->
+    <br><p>Мексика – страна текилы. Побывав на одном из заводов по изготовлению этого алкогольного напитка, можно больше узнать о процессе производства, разновидностях, продегустировать готовую продукцию. </p><p>Основой для изготовления текилы служит голубая агава – суккулент высотой примерно в человеческий рост. Произрастает она и в других странах, но только в Мексике текила будет считаться оригинальной. Для производства алкоголя высаживают целые поля агавы. Ее растят до определенного размера, после чего обрубают листья, оставляя только ствол, похожий на кедровую шишку, но размерами с небольшой бочонок вина. Стволы на какое-то время оставляют лежать на солнце для ферментации, после чего измельчают, выжимают сок и оставляют его для брожения. После процессов ферментации, дистилляции готовый напиток, в зависимости от категории, либо выдерживают в бочках, либо сразу разливают в стеклянную тару. </p><img src="img/articles/mexico_2.jpg"><p>Текилу по возрасту подразделяют на несколько категорий: <ul><li> Blanca (silver) – белая (серебряная) невыдержанная текила. Самими мексиканцами она используется в основном только для коктейлей.</li><li> Joven abocado (oro) – золотая текила. Делается из белой путем подкрашивания карамелью для придания сходства с выдержанной. </li><li> Reposado – отдохнувшая текила. Выдерживается в бочонках от 2 до 11 месяцев, иногда также подкрашивается. </li><li> Añejo – выдержанная текила. Ее выдерживают от 1 до 3 лет, после чего она приобретает естественный золотистый оттенок. </li><li> Extra añejo – экстра выдержанная (свыше 3 лет) текила. </li></ul></p><img src="img/articles/mexico_3.jpg"><p>При покупке следует обращать внимание и на процентное содержание алкоголя из агавы в напитке. Текила «стандарт» («mixto») содержит 51% спиртов из сока агавы, остальное – обычный алкоголь из других, как правило, более дешевых сахаров. Такую текилу в основном делают на экспорт. Говорят, что мексиканцы не считают ее настоящей и поэтому не употребляют. Надпись «премиум» («100% agava»), или «cien por ciento de agave» присуща продукту, полностью состоящему из сока агавы. </p><p>Помимо вышесказанного, на бутылке оригинальной текилы должно присутствовать упоминание о том, что она произведена в Мексике: «Hecho en Mexico». </p><p>Если в процессе производства смешать несколько сортов агавы, то получится другой мексиканский национальный напиток – мескаль. Он не так хорошо известен и имеет более грубый вкус. Впрочем, натуральная текила также сильно отличается от распространенной в России стандартной и на первый взгляд может показаться неприятной. Но со временем своеобразный вкус агавы начинает ощущаться совсем по-другому, словно приобретает свою «изюминку». В целях популяризации и в виде своеобразного знака качества в бутылку с мескалем добавляют червячка, обитающего на листьях агавы. </p><img src="img/articles/mexico_4.jpg"><p>Широко известно, что текилу пьют с лаймом и солью. Однако сами мексиканцы так не делают. Они употребляют ее либо просто так, в чистом виде, либо запивая другим напитком – сангритой. Это мексиканская разновидность коктейля «Кровавая Мэри». Существует множество рецептов сангриты, но все они состоят из томатного и апельсинового соков с добавлением мексиканского перца «хабаньеро», что делает готовый напиток насыщенно острым.</p><img src="img/articles/mexico_sub.jpg"><br><br>
+
+    </div>
+  </article>
+
+  <!-- TAGS -->
+  <div class="large-12 columns">
+    <dl class="sub-nav">
+      <dt>Метки:</dt>
+      <dd class="active"><a href="tag/places">Места</a></dd>
+      <dd><a href='tag/travel'>Путешествия</a></dd><dd><a href='tag/relax'>Отдых</a></dd><dd><a href='tag/sended'>Присланное</a></dd>
+    </dl>
+
+    <!-- Share block -->
+    Поделиться с друзьями:
+    <div class="yashare-auto-init" style="display: inline-block;" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter" data-yashareLink="http://lechtivo.com/articles/MEXICO" data-yashareTitle="Немного о Мексике, мескале и текиле" data-yashareDescription="<br><p>Мексика – страна текилы. Побывав на одном из заводов по изготовлению этого алкогольного напитка, можно больше узнать о процессе производства, разновидностях, продегустировать готовую продукцию. </p><p>Основой для изготовления текилы служит голубая агава – суккулент высотой примерно в человеческий рост. Произрастает она и в других странах, но только в Мексике текила будет считаться оригинальной." data-yashareImage="http://lechtivo.com/img/articles/mexico_1_sq.jpg"></div>
+    <br>
+  </div>
+
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+</div>
+<!-- Article End -->
+
+
+<!-- Sub Post Bar -->
+<div class="row">
+
+  <!-- Similar Articles -->
+  <!--
+  <div class="large-12 columns">
+  <h5 class="text-center">–– ЧИТАЙТЕ ТАКЖЕ ––</h5>
+  <br>
+  <br>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_1}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_1}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_1}}
+      <br>
+    </a>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_2}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_2}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_2}}
+      <br>
+    </a>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_3}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_3}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_3}}
+      <br>
+    </a>
+  </div>
+
+  <div class="large-3 columns">
+    <a href="{{SIMILAR_ARTICLE_URL_4}}" class="article-title">
+      <div class="image-container proportion-1x1">
+        <img src="{{SIMILAR_ARTICLE_IMAGE_SQ_4}}">
+      </div>
+      <br>
+      {{SIMILAR_ARTICLE_TITLE_4}}
+      <br>
+    </a>
+  </div>
+    
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+  -->
+  
+</div>
+
+<!-- Comments -->
+<div class="row">
+  <div class="large-12 columns">
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'lechtivo'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+
+<!-- Article SubFooter -->
+<div class="row">
+  
+  <div class="large-12 columns">
+    <hr>
+  </div>
+
+  <!-- Subsribe Form -->
+  <div class="large-4 columns">
+    <h5 class="text-center">–– ПОДПИСАТЬСЯ ––</h5>
+    <br>
+    <p>Подпишись на наш дайджест и получай лучшие наши статьи себе на email</p>
+    <form action="http://lechtivo.us3.list-manage.com/subscribe/post?u=cdd10a9b7ae4acfa0e3c29cd9&amp;id=f0a15e5367" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-abide>
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="email" name="EMAIL" placeholder="Адресс электронной почты" required/>
+          <small class="error">Указан неверный адрес электронной почты</small>
+        </div>
+        <div class="small-12 columns">
+          <input type="submit" name="subscribe" value="ПОДПИСАТЬСЯ" class="button small small-12">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- PROMO BLOCK 1 -->
+  <div class="large-4 columns">
+    <div class="image-container proportion-1x1">
+        <a href="{{PROMO_SQUARE_URL_1}}" title="{{PROMO_SQUARE_TITLE_1}}">
+          <!--<img src="{{PROMO_SQUARE_IMAGE_1}}" class="center-block">-->
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- LeChtivo CrossSite Block -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:250px;height:250px"
+                 data-ad-client="ca-pub-8258335386027703"
+                 data-ad-slot="2974797272"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </a>
+    </div>
+  </div>
+
+  <!-- PROMO BLOCK 2 -->
+  <div class="large-4 columns">
+    <div class="image-container proportion-1x1">
+        <a href="{{PROMO_SQUARE_URL_2}}" title="{{PROMO_SQUARE_TITLE_2}}">
+          <!--<img src="{{PROMO_SQUARE_IMAGE_2}}" class="center-block">-->
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- LeChtivo CrossSite Block -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:250px;height:250px"
+                 data-ad-client="ca-pub-8258335386027703"
+                 data-ad-slot="2974797272"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </a>
+    </div>
+  </div>
+
+</div>
+    
+
+ 
+  <!-- Footer -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <br>
+      <hr />
+      <br>
+      <div class="row">
+
+        <div class="large-6 push-6 columns">
+          <ul class="inline-list right">
+            <li class='cl-effect-2'><a href='tag/readings'><span Data-hover='Чтиво'>Чтиво</span></a></li><li class='cl-effect-2'><a href='tag/places'><span Data-hover='Места'>Места</span></a></li><li class='cl-effect-2'><a href='tag/food'><span Data-hover='Еда'>Еда</span></a></li><li class='cl-effect-2'><a href='tag/design'><span Data-hover='Дизайн'>Дизайн</span></a></li><li class='cl-effect-2'><a href='tag/entrepreneurship'><span Data-hover='Свое дело'>Свое дело</span></a></li><li class='cl-effect-2'><a href='tag/others'><span Data-hover='Вне рубрики'>Вне рубрики</span></a></li>
+          </ul>
+        </div>
+
+        <div class="large-6 pull-6 columns">
+          <p class="cl-effect-2">
+            <a href="about"><span data-hover="О Сайте">О Сайте</span></a>
+            <a href="ads"><span data-hover="Реклама">Реклама</span></a>
+            <a href="mailto:info@lechtivo.com"><span data-hover="Info@LeChtivo.com">Info@LeChtivo.com</span></a>
+            <br>
+            <small>Использование материалов портала <b>запрещено без письменного одобрения</b> администрации сайта.
+            Сайт может содержать информацию, не предназначенную для лиц младше <b>21</b>-ти года.
+            <br>
+            2014 © Copyright <a href="http://lechtivo.com">Le Chtivo</a> | Создано в недрах <a href="http://ColorEMotions.net">Color-E-Motions</a>
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+
+    <!-- JS -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>$(document).foundation();</script>
+    <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23736697 = new Ya.Metrika({id:23736697, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23736697" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-47466485-1', 'lechtivo.com');
+      ga('send', 'pageview');
+    </script>
+    <!-- End of Google Analytics -->
+
+  </body>
+</html>

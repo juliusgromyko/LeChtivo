@@ -71,14 +71,20 @@
     -->
 
     <!-- PROMO BLOCK -->
-    <!--
     <div class="image-container proportion-1x1">
-        <a href="promo" title="promo">
-          <img src="http://placehold.it/400x400&text=[PROMO]" class="center-block">
-        </a>
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-8258335386027703";
+        /* LeChtivo CrossSite Block */
+        google_ad_slot = "2974797272";
+        google_ad_width = 250;
+        google_ad_height = 250;
+        //-->
+        </script>
+        <script type="text/javascript"
+        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
     </div>
     <br>
-    -->
 
     <!-- POPULAR TOPICS -->
     <br>
